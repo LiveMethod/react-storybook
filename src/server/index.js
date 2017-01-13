@@ -111,7 +111,7 @@ app.listen(...listenAddr, function (error) {
     throw error;
   } else {
     const address = `http://${program.host || 'localhost'}:${program.port}/`;
-    logger.info(`\nReact Storybook started on => ${chalk.cyan(address)}\n`);
+    logger.info(`\nRick Flavored React Storybook started on => ${chalk.cyan(address)}\n`);
     track();
   }
 });
